@@ -1,0 +1,22 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: calculator
+Upstream-Contact: <Narainkarthik and www.github.com/narainkarthikv/gcalculator>
+Source: <www.github.com/narainkarthikv/gcalculator>
+#
+# Please double check copyright with the licensecheck(1) command.
+
+Files:     PKG-INFO
+           calculator.egg-info/PKG-INFO
+           calculator.egg-info/SOURCES.txt
+           calculator.egg-info/dependency_links.txt
+           calculator.egg-info/entry_points.txt
+           calculator.egg-info/top_level.txt
+           setup.cfg
+           setup.py
+           tvb/__init__.py
+Copyright: __NO_COPYRIGHT_NOR_LICENSE__
+License:   __NO_COPYRIGHT_NOR_LICENSE__
+
+#----------------------------------------------------------------------------
+# Files marked as NO_LICENSE_TEXT_FOUND may be covered by the following
+# license/copyright files.

@@ -1,0 +1,14 @@
+ dpkg-buildpackage -us -uc -ui
+dpkg-buildpackage: info: source package calculator
+dpkg-buildpackage: info: source version 0.0.1-1
+dpkg-buildpackage: info: source distribution UNRELEASED
+dpkg-buildpackage: info: source changed by Narainkarthik <narainkarthikv>
+ dpkg-source --before-build .
+dpkg-buildpackage: info: host architecture amd64
+ debian/rules clean
+dh clean --with python2
+dh: error: unable to load addon python2: Can't locate Debian/Debhelper/Sequence/python2.pm in @INC (you may need to install the Debian::Debhelper::Sequence::python2 module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.36.0 /usr/local/share/perl/5.36.0 /usr/lib/x86_64-linux-gnu/perl5/5.36 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl-base /usr/lib/x86_64-linux-gnu/perl/5.36 /usr/share/perl/5.36 /usr/local/lib/site_perl) at (eval 15) line 1.
+BEGIN failed--compilation aborted at (eval 15) line 1.
+
+make: *** [debian/rules:9: clean] Error 25
+dpkg-buildpackage: error: debian/rules clean subprocess returned exit status 2
